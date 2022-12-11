@@ -2,6 +2,7 @@
 
 import java.util.Scanner;
 import shapes.*;
+import shapes.Rectangle;
 import testing.Math;
 
 public class U5_L3_Activity_Two
