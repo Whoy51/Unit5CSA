@@ -1,5 +1,3 @@
-import org.w3c.dom.css.Rect;
-
 public class Rectangle {
 
     private double base;
@@ -48,9 +46,7 @@ public class Rectangle {
     }
 
     public boolean equals(Rectangle other) {
-        if (other.getBase() == base && other.getHeight() == height){
-            return true;
-        }return false;
+        return other.getBase() == base && other.getHeight() == height;
     }
 
     public String toString() {
