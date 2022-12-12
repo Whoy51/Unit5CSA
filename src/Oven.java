@@ -48,9 +48,7 @@ public class Oven
     // return false if the current temperature is 0.
     public boolean isOn()
     {
-        if (this.currentTemp > 0){
-            return true;
-        }return false;
+        return this.currentTemp > 0;
     }
 
     // Sets the current temperature of an oven to the given value. Remember,
