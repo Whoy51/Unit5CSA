@@ -142,7 +142,7 @@ public class Player {
     }
 
     /**
-     * Get the X
+     * Get the X pos
      * @return x
      */
     public int getX() {
@@ -150,7 +150,7 @@ public class Player {
     }
 
     /**
-     * Get the Y
+     * Get the Y pos
      * @return y
      */
     public int getY() {
@@ -158,7 +158,7 @@ public class Player {
     }
 
     /**
-     * Get the Z
+     * Get the Z pos
      * @return z
      */
     public int getZ() {
@@ -166,13 +166,17 @@ public class Player {
     }
 
     /**
-     * Get the direction, 1-6
-     * @return
+     * Get the direction
+     * @return direction, 1-6
      */
     public int getDirection() {
         return direction;
     }
 
+    /**
+     * Gets the number of player objects created
+     * @return num of players
+     */
     public static int getNumPlayers() {
         return numPlayers;
     }
