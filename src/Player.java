@@ -198,7 +198,6 @@ public class Player {
         int zDist = Math.abs(z - this.z);
 
         return Math.sqrt(Math.pow(xDist, 2) + Math.pow(yDist, 2) + Math.pow(zDist, 2));
-
     }
 
     /**
